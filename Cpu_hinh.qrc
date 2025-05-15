@@ -1,0 +1,56 @@
+<RCC>
+  <qresource prefix="hinh">
+    <file>image/nen_home.png</file>
+    <file>image/amdpnx.png</file>
+    <file>image/intelz.jpg</file>
+    <file>C:/Users/TranTienAnh/Downloads/ChatGPT Image 11_07_28 5 thg 5, 2025.png</file>
+    <file>image/i7_vs_ryzen_7_a7a7db20c7df41a1b366d8c5afa20d12.webp</file>
+    <file>C:/Users/TranTienAnh/Downloads/ChatGPT Image 22_32_11 4 thg 5, 2025.png</file>
+    <file>image/barcode.png</file>
+    <file>C:/Users/TranTienAnh/Downloads/cpu-intel-core-i7-12700f-2_grande.webp</file>
+    <file>image/office-building.png</file>
+    <file>image/cpu.png</file>
+    <file>image/editing.png</file>
+    <file>image/add.png</file>
+    <file>image/contact.png</file>
+    <file>image/exit (1).png</file>
+    <file>image/exit (2).png</file>
+    <file>image/facebook_icon.png</file>
+    <file>image/home.png</file>
+    <file>image/homeuia.png</file>
+    <file>image/image (1).png</file>
+    <file>image/Infinix GT 10 Pro.jpg</file>
+    <file>image/instagram_icon.png</file>
+    <file>image/link.png</file>
+    <file>image/lock.png</file>
+    <file>image/logo.png</file>
+    <file>image/logo1.png</file>
+    <file>image/login.png</file>
+    <file>image/menu.png</file>
+    <file>image/nen_amin.jpg</file>
+    <file>image/nencus.jpg</file>
+    <file>image/nenleft.jpg</file>
+    <file>image/nenlog.jpg</file>
+    <file>image/nento.jpg</file>
+    <file>image/padlock.png</file>
+    <file>image/paper.png</file>
+    <file>image/person.png</file>
+    <file>image/pinterest_social_icon.png</file>
+    <file>image/planning (1).png</file>
+    <file>image/planning.png</file>
+    <file>image/private-key.png</file>
+    <file>image/problem.png</file>
+    <file>image/reject.png</file>
+    <file>image/research.png</file>
+    <file>image/result_backgruond_congnghe.jpg</file>
+    <file>image/select.png</file>
+    <file>image/sign.png</file>
+    <file>image/tải xuống (1).jpg</file>
+    <file>image/Techie Background.jpg</file>
+    <file>image/twitter_icon.png</file>
+    <file>image/types.png</file>
+    <file>image/trash.png</file>
+    <file>image/user.png</file>
+    <file>image/youtube_icon.png</file>
+  </qresource>
+</RCC>

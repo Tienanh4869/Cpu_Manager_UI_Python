@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Home</class>
+ <widget class="QMainWindow" name="Home">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>690</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Home</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="Cpu_hinh.qrc">
+    <normaloff>:/hinh/image/cpu.png</normaloff>:/hinh/image/cpu.png</iconset>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">border-raidus:50px
+</string>
+  </property>
+  <property name="animated">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="nen">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>40</y>
+      <width>941</width>
+      <height>611</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-image: url(:/hinh/image/nen_home.png);
+border-radius:15px;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="scaledContents">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="home">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>100</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+
+
+;
+	background-color: rgb(255, 170, 0);
+     color: black;
+   border: 1px solid white; /* viền đen */
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffcc,  /* vàng trắng nhạt */
+        stop:1 #fff176   /* vàng nhạt */
+    );
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffb74d,  /* cam nhạt */
+        stop:1 #f57c00   /* cam đậm */
+    );
+    color: black;
+
+}</string>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Cpu_hinh.qrc">
+      <normaloff>:/hinh/image/home.png</normaloff>:/hinh/image/home.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="manager">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>160</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+
+QPushButton {
+background-color: rgb(0, 255, 255);
+    color: black;
+    border: 2px solid grey;     /* viền đen */
+
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffcc,  /* vàng trắng nhạt */
+        stop:1 #fff176   /* vàng nhạt */
+    );
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffb74d,  /* cam nhạt */
+        stop:1 #f57c00   /* cam đậm */
+    );
+    color: black;
+}</string>
+    </property>
+    <property name="text">
+     <string>Manager</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Cpu_hinh.qrc">
+      <normaloff>:/hinh/image/planning (1).png</normaloff>:/hinh/image/planning (1).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="checkable">
+     <bool>false</bool>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_">
+    <property name="geometry">
+     <rect>
+      <x>960</x>
+      <y>0</y>
+      <width>41</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(0, 255, 255);
+     color: black;
+   border: 1px solid black;    /* viền đen */
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffcc,  /* vàng trắng nhạt */
+        stop:1 #fff176   /* vàng nhạt */
+    );
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffb74d,  /* cam nhạt */
+        stop:1 #f57c00   /* cam đậm */
+    );
+    color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="Cpu_hinh.qrc">
+      <normaloff>:/hinh/image/reject.png</normaloff>:/hinh/image/reject.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>20</width>
+      <height>20</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_logout_home">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>280</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(0, 255, 255);
+     color: black;
+   border: 2px solid grey;    /* viền đen */
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffcc,  /* vàng trắng nhạt */
+        stop:1 #fff176   /* vàng nhạt */
+    );
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffb74d,  /* cam nhạt */
+        stop:1 #f57c00   /* cam đậm */
+    );
+    color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Back to login</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Cpu_hinh.qrc">
+      <normaloff>:/hinh/image/exit (1).png</normaloff>:/hinh/image/exit (1).png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>25</width>
+      <height>30</height>
+     </size>
+    </property>
+    <property name="autoDefault">
+     <bool>false</bool>
+    </property>
+    <property name="default">
+     <bool>false</bool>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="contact">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>220</y>
+      <width>161</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>11</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+background-color: rgb(0, 255, 255);
+     color: black;
+   border: 2px solid grey;    /* viền đen */
+    border-radius: 20px;
+    padding: 6px 12px;
+}
+
+QPushButton:hover {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffffcc,  /* vàng trắng nhạt */
+        stop:1 #fff176   /* vàng nhạt */
+    );
+    color: black;
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(
+        x1:0, y1:0, x2:1, y2:1,
+        stop:0 #ffb74d,  /* cam nhạt */
+        stop:1 #f57c00   /* cam đậm */
+    );
+    color: black;
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Contact</string>
+    </property>
+    <property name="icon">
+     <iconset resource="Cpu_hinh.qrc">
+      <normaloff>:/hinh/image/contact.png</normaloff>:/hinh/image/contact.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>0</y>
+      <width>51</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Roboto</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>Home</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>0</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(0, 255, 255);
+border-radius:15px;
+    border: 1px solid black; </string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>0</y>
+      <width>28</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="Cpu_hinh.qrc">:/hinh/image/home.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <zorder>nen</zorder>
+   <zorder>home</zorder>
+   <zorder>manager</zorder>
+   <zorder>btn_</zorder>
+   <zorder>btn_logout_home</zorder>
+   <zorder>contact</zorder>
+   <zorder>label_3</zorder>
+   <zorder>label_4</zorder>
+   <zorder>label_2</zorder>
+  </widget>
+ </widget>
+ <resources>
+  <include location="Cpu_hinh.qrc"/>
+ </resources>
+ <connections/>
+</ui>
